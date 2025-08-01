@@ -27,7 +27,11 @@ This session focuses on helping developers understand key Git concepts that go b
 
 ### ⚔️ Resolve Cherry-Pick Conflicts
 - Handle conflicts during cherry-pick.
-- Resolve manually, then run `git cherry-pick --continue`.
+- Resolve manually, then use:
+  - `git add .` (or specific files)
+  - `git cherry-pick --continue`
+- If needed:
+  - `git cherry-pick --abort` – cancel the rebase
 
 ### 🔄 Git Reset
 Moves `HEAD` to a different commit. Used to undo or unstage changes.
@@ -52,4 +56,3 @@ Temporarily stores uncommitted changes and reverts your working directory to the
 
 **Presented by:** Saroar Hossain Shahan  
 **Blog:** [shahansdiary.com](https://shahansdiary.com)
-
