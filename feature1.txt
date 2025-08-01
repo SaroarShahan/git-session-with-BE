@@ -1,3 +1,5 @@
+Add head text
 Hello, Feature 1.
 
 Another line added
+Add footer text
