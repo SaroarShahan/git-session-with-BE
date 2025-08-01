@@ -4,15 +4,15 @@ This session focuses on helping developers understand key Git concepts that go b
 
 ## Topics Covered: 
 
-### 🆚 Git Pull vs Git Fetch
+### Git Pull vs Git Fetch
 - **Pull**: Fetches and merges changes from the remote.
 - **Fetch**: Only fetches changes; doesn’t merge them.
 
-### 🔀 Git Merge vs Git Rebase
+### Git Merge vs Git Rebase
 - **Merge**: Combines branches and creates an extra merge commit.
 - **Rebase**: Reapplies commits on top of another branch, creating a cleaner commit history.
 
-### ⚔️ Resolve Rebase Conflicts
+### Resolve Rebase Conflicts
 - Conflicts can occur during `git rebase`.
 - Resolve manually, then use:
   - `git add .` (or specific files)
@@ -21,11 +21,11 @@ This session focuses on helping developers understand key Git concepts that go b
   - `git rebase --abort` – cancel the rebase
   - `git rebase --skip` – skip the conflicting commit
 
-### 🍒 Git Cherry-Pick
+### Git Cherry-Pick
 - Lets you apply a specific commit from one branch to another.
 - Useful for selectively moving changes.
 
-### ⚔️ Resolve Cherry-Pick Conflicts
+### Resolve Cherry-Pick Conflicts
 - Handle conflicts during cherry-pick.
 - Resolve manually, then use:
   - `git add .` (or specific files)
@@ -33,14 +33,14 @@ This session focuses on helping developers understand key Git concepts that go b
 - If needed:
   - `git cherry-pick --abort` – cancel the rebase
 
-### 🔄 Git Reset
+### Git Reset
 Moves `HEAD` to a different commit. Used to undo or unstage changes.
 
 - **Hard**: Removes changes from the working directory and the staging area.
 - **Soft**: Keeps changes staged; good for amending commits.
 - **Mixed** (default): Unstages changes, but keeps them in the working directory.
 
-### 📦 Git Stash
+### Git Stash
 Temporarily stores uncommitted changes and reverts your working directory to the last commit.
 
 ### Stash Commands:
@@ -51,8 +51,3 @@ Temporarily stores uncommitted changes and reverts your working directory to the
 - `git stash show` – Show what’s inside a stash.
 - `git stash drop` – Delete a specific stash.
 - `git stash clear` – Remove all stashes.
-
----
-
-**Presented by:** Saroar Hossain Shahan  
-**Blog:** [shahansdiary.com](https://shahansdiary.com)
